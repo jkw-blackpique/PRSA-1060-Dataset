@@ -19,11 +19,11 @@ The current version of the PRSA-1060 dataset only contains testing set that is s
 ## Dataset structure
 
 PRSA-1060<br>
-    ├── images<br>
-        ├── 000001_01_001_00003090.jpg<br>
-        ├── 000001_01_001_00003100.jpg<br>
-        ├── 000001_01_001_00003120.jpg<br>
-        ├── ......<br>
+　　├── images<br>
+　　　　├── 000001_01_001_00003090.jpg<br>
+　　　　├── 000001_01_001_00003100.jpg<br>
+　　　　├── 000001_01_001_00003120.jpg<br>
+　　　　├── ......<br>
 　　├── partitions.pkl<br>
 　　└── README.md<br>
 
