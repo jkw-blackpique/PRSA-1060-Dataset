@@ -11,33 +11,33 @@ Our PRSA-1060 dataset is used for person re-identification research in surveilla
 Our PRSA-1060 dataset consists of 1,060 person and 15,753 person bounding boxes captured by nine cameras, seven in HD and two in low HD. Each person is captured by three cameras and has multiple images under one camera.
 
 
-## Dataset partition:
+## Dataset partition
 
 The current version of the PRSA-1060 dataset only contains testing set that is split to the query set and gallery set, among which the query set contains 4,777 images with 971 IDs, and the gallery set contains 10,976 images with 1,060 IDs. We propose to use the PRSA-1060 dataset in conjunction with other general person re-identification datasets, for example, training on the general datasets and testing on our PRSA-1060 dataset to evaluate the perspective generalization ability of the model. In addition, we will continue to update and support the PRSA-1060 dataset in the future, and propose a larger and diverse version, and the training set will be included.<br>
 
 
-## Dataset structure:
+## Dataset structure
 
-PRSA-1060
-    ├── images
-        ├── 000001_01_001_00003090.jpg
-        ├── 000001_01_001_00003100.jpg
-        ├── 000001_01_001_00003120.jpg
-        ├── ......
-　　├── partitions.pkl
-　　└── README.md
+PRSA-1060<br>
+    ├── images<br>
+        ├── 000001_01_001_00003090.jpg<br>
+        ├── 000001_01_001_00003100.jpg<br>
+        ├── 000001_01_001_00003120.jpg<br>
+        ├── ......<br>
+　　├── partitions.pkl<br>
+　　└── README.md<br>
 
-images: The 15,753 person bounding boxes of our PRSA-1060 dataset.
-partitions.pkl: The file describing the partitioning of our PRSA-1060 dataset.
-README.md: Just this file.
+images: The 15,753 person bounding boxes of our PRSA-1060 dataset.<br>
+partitions.pkl: The file describing the partitioning of our PRSA-1060 dataset.<br>
+README.md: Just this file.<br>
 
 
-## Annotation:
+## Annotation
 
 Image name: PersonID_CameraID_VideoID_Frame.jpg, such as 00000X_0Y_00Z_0000000A.jpg, the 00000X indicates this image belongs to Person ID No.X, the 0Y indicates this image is captured by camera No.Y, 00Z indicates this image is extracted from video No.Z under this camera and 0000000A indicates this image is the Z-th frame in this video.
 
         
-## Evaluation Metrics:
+## Evaluation Metrics
 
 We adopt the popular mean Average Precision (mAP) and Cumulative Matching Cure (CMC) as in other re-identification works.
 
@@ -49,9 +49,9 @@ You can get the downloading link of our PRSA-1060 dataset via sending e-mail to 
 Our e-mail address: <jkw-blackpique@outlook.com>
 
 
-## Statement:
+## Statement
 
-Our PRSA-1060 dataset is prohibited for any commercial using. If you use PRSA-1060 dataset in your research, you should to refer to our work as the following BibTeX entry.
+Our PRSA-1060 dataset is prohibited for any commercial using. If you use PRSA-1060 dataset in your research, you should refer to our work as the following BibTeX entry.
 
 ```
 @misc{PRSA-1060,
