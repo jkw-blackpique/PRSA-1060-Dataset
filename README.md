@@ -6,7 +6,7 @@ Our PRSA-1060 is released now！<br>
 
 Thanks for your interest in our PRSA-1060 dataset.<br>
 
-![overview](https://github.com/jkw-blackpique/PRSA-1060-Dataset/Figure1.jpg)
+![Overview](https://github.com/jkw-blackpique/PRSA-1060-Dataset/blob/main/Figure1.jpg)
 
 Our PRSA-1060 dataset is used for person re-identification research in surveillance-aerial imagery. With the rapid development of Unmanned Aerial Vehicles (UAVs), UAV-based vision applications have been drawing increasing attention from both industry and academia. However, UAV-based person re-identification is rarely studied, although it has a variety of potential applications such as long-term tracking, visual object retrieval, etc. One of the reasons is the lack of a corresponding publicly available dataset, which will take a large number of human efforts for UAV ﬂying, video capture, and data annotation. And more importantly, there is a huge perspective gap between two common sources of personal data, surveillance imagery and aerial imagery, which will make it hard to combine surveillance imagery and aerial imagery for personal re-identification. In this case, we collect and release our PRSA-1060 to support in-depth research, providing surveillance imagery and aerial imagery with view-angle gaps in several scenes.<br>
 
